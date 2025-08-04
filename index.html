@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Making App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio src="pop-cut.mp3" class="pop-sound" preload="auto"></audio>
+    <audio src="woosh-cut.mp3" class="woosh-sound" preload="auto"></audio>
+    <audio class="keysound" src="keysound.mp3" preload="auto"></audio>
+    <div class="container">
+        <h1> <img src="sticky-note.png" width="60px">Notes</h1>
+        <button class="add-btn"><img src=edit.png width="25px">Add notes</button>
+        <div class="all-notes">
+            <div class="notes-content">
+                <p contenteditable="true" class="input-area"></p>
+                <img src="delete.png" class="dlt-btn">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
